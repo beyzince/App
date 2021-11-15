@@ -1,11 +1,11 @@
 package com.example.App;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class AppApplication {
-	//Hello darkness my old friend
 	public static void main(String[] args) {
 		SpringApplication.run(AppApplication.class, args);
 	}
